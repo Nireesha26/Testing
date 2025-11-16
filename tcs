@@ -1,5 +1,10 @@
-Date;
-public class HelloWorld {
-int i;
-for (i=1;i<=10;i++)
-println(i);
+public class EvenOdd {
+    public static void main(String[] args) {
+        int number = 7;
+        if (number % 2 == 0) {
+            System.out.println(number + " is an even number.");
+        } else {
+            System.out.println(number + " is an odd number.");
+        }
+    }
+}
